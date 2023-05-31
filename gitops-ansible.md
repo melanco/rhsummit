@@ -8,7 +8,7 @@ Manage automation processes more effectively
 
 scale automation capacity easily and on-demand.
 
-Decoupling of control plane and execution plane in AAP 2. 
+Decoupling of control plane and execution plane in AAP 2.
 
 AWX resource Operator
 
