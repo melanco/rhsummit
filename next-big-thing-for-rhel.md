@@ -1,126 +1,61 @@
 # What’s the next big thing for RHEL ?
 
-Présentateurs : Chris wlls / Gunnar Helekson
+Presenters: Chris Wells / Gunnar Helekson
 
-Where are we going to take it in the future
+Where Are We Going to Take It in the Future? What Is the Vision?
 
-What is the vision ? 
+Mission Statement:
 
-Mission statement :
-
-RHEL is the source for safe and reliable linux innovation that make your workloads sucuessful
-
-Everywhere you want it - On prem, virtual, in the cloud
-
-Serves the redhat portfolio and the red hat ecosystem.
+RHEL is the source for safe and reliable Linux innovation that makes your workloads successful. It can run everywhere - on-premises, virtual, in the cloud, and serves the Red Hat portfolio and the Red Hat ecosystem.
 
 ---
 
-Where we’ve been
+## Where We’ve Been
 
-RHEL has more than 10000 porjects.
+RHEL has more than 10,000 projects and is the foundation of the original hybrid cloud application platform. It supports everything as a service, modern apps, containers and microservices, and ISVs. The value of a Red Hat Enterprise Linux subscription includes support, security updates, and a partners ecosystem.
 
-RHEL is the foundation. The original hydrbrid cloud application platform. (everything as a service, modern apps, containers and microservices, ISVs)
-
-The value of a red hat enterprise linux subscription. 
-
-Support, secutiry updates, partners ecosystem.
-
-How it started :
+How It Started:
 
 UNIX —> RHEL
 
-How it’s going :
-Majority of new workloads —> RHEL
+## How It’s Going :
 
-Where we are:
+The majority of new workloads are using RHEL. It supports all cloud providers and partners, and the latest versions are RHEL 9.2 and 8.8. The goal is to make Linux simpler and more efficient, and to more easily manage production workloads. Broader support is provided for innovative new hardware, and resilient containers with automated podman health checks and improved event logging make it safer to deploy containers at scale.
 
-Support all cloud providers and partners. 
+Key Points for Those Who Want to Run Both Oracle Announcement:
 
-RHEL 9.2, 8.8
-
-Make linux simpler and more efficient
-
-More easily manage production workloads
-
-Broader support for innovative new hardware
-
-Resilient containers with automated podman health checs and improved event logging make it safer to deploy containers at scale.
-
-Key points who want to run bout oracle announcement.
-
-Redhat and Oracle will officially support joint customers in oracle cloud.
+Red Hat and Oracle will officially support joint customers in Oracle Cloud.
 
 ---
 
-RHEL tomorrow.
+## RHEL Tomorrow
 
-Library of trusted content.
+Library of trusted content, image builder, and host management tools (to find if they need a patch, do it from the website), system roles, and the next step is a disconnected environment.
 
-Image builder
+Traditionally, RHEL is on a DVD. Now, it will create an image and deploy it.
 
-Host management tools.  (find if they need a patch, do it from website)
-
-System roles
-
-Second step —> Disconnected environnement.
-
-Traditionnal —> RHEL DVD
-
-Moving forward will be creating an image and deploying it. 
-
-System roles protects us from major releases and updates.
-
-Management for all (insights)
-
-- Making it easier to manage systems anywhere.
-- Simplified end-to-end system management
-- Delivered as a service - no infrastructure overhead.
-- Intereactive guidance to lower the learning curve
-- Included with sub
-
-Convert2Rhel is the way to migrate from centOS to rhel. 
-
-It now works on Azure/AWS/GCP so you dont have to destroy your rhel7 .Coming q3.
+ System roles protect us from major releases and updates. Management for all (insights) makes it easier to manage systems anywhere, simplifies end-to-end system management, and is delivered as a service - no infrastructure overhead. Interactive guidance is provided to lower the learning curve and is included with a subscription. Convert2RHEL is the way to migrate from CentOS to RHEL, and it now works on Azure/AWS/GCP so you don't have to destroy your RHEL7. It will be available in Q3.
 
 ---
 
-Where we’re going
+## Where We’re Going
 
-Step1 : Management for all
+Step 1: Management for All
 
-Step2 : Moving management from run-time to build-time
+By using [cloud.redhat.com](http://cloud.redhat.com) as a single point for all your RHEL needs, it makes management really easy
 
-Most systems are run-time and they want to migrate that to build time. 
+Step 2: Moving Management from Run-Time to Build-Time
 
-Management tool for image builds. 
+Most systems are run-time and they want to migrate that to build time. A management tool for image builds is being developed. RHEL will now come with an AI in image builder. For example, it will suggest other packages that are often installed with Nginx.
 
-RHEL wiill now come with an AI in image builder.
+Step 3: Optimizing for Different Infrastructure
 
-“Did you know that most customers who install this Nginx package also install that packages”
+The hardware world is very diverse and a lot of architecture are popping up. One kernel cannot do everything. Specific kernels are being developed for 64-bit Arm, for example. There will be variations of RHEL (14 to 17 versions at any time), but it can be managed.
 
-Step3 : Optimizing for different infrastructure 
+Step 4: Expanding Your Secure Supply Chain
 
-The hardware world is very strange and a lot for architecture are popping up. 
+There are currently 13,000 packages, but only 200 in the OS. Customers ask for new packages, so they need to keep adding them. The reason they don't do it today is that they have no tool. Now, they have the tool. They are aiming for a universe of software for apps, for infra, running and optimized on any infrastructure.
 
-One kernel can not do everything. 
+### How this could be useful to us :
 
-Specific kernel for 64bit Arm for example. 
-
-Variations of RHEL (14 to 17 version at any time) but it can become manageable. 
-
-Step 4 : Expanding your secure supply chain
-
-13 000 packages 
-
-How many in the OS (200) ! 
-
-Customers ask for new packages so they need to keep adding 🙂
-
-The reason we dont do it today is we have no tool. 
-
-Now we have the tool.
-
-A universe of software. for apps, for infra, run and optimized on any infra. 
-
-Q&A
+We don’t use RHEL right now other than for our jumpoints, but that can be where we have something to gain. We could use the [cloud.redhat.com](http://cloud.redhat.com) interface to build an image that has everything we need for all jumpoints.

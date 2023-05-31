@@ -1,35 +1,23 @@
-# Staying miles ahead of the competition: Automating on red hat openshift witn ansible and gitops
+## Ansible Automation Platform
 
-Ansible Automation Platform
+The Ansible Automation Platform (AAP) allows you to create automation content in a more consistent way, manage automation processes more effectively, and scale automation capacity easily and on-demand. AAP 2 decouples the control plane and execution plane.
 
-Create automation content in a more cosistent way
+## AWX Resource Operator
 
-Manage automation processes more effectively
+The AWX Resource Operator provides the ability to launch jobs and create Ansible job templates by creating resources directly in a Kubernetes/OpenShift environment. There are currently two custom resources provided by the AWX Resource Operator: ansible job, which launches a job in the AWX/AAP instances, and jobtemplate, which creates a template in AAP.
 
-scale automation capacity easily and on-demand.
+## GitOps with ArgoCD
 
-Decoupling of control plane and execution plane in AAP 2.
-
-AWX resource Operator
-
-Provides you the ability to launch jobs and create ansible job templates by creating resources directly in a kubernetes/openshift environement
-
-There are currently two custom resources porvided by the awx-resource-operator
-
-ansible job - launched a job in the awx/aap instances
-
-jobtemplate -  the template to create in AAP
-
-GitOps with argo/cd
-
-Ensures consistency in applications when you deploy them to different cluster environments.
-
-- Development
-- Staging
-- Production
-
-RH GitOps uses ArgoCD to maintain cluster resources by using ArgoCD as a controller.
+GitOps with ArgoCD ensures consistency in applications when deploying to different cluster environments, such as development, staging, and production. RH GitOps uses ArgoCD as a controller to maintain cluster resources.
 
 Workflow
 
-image
+The workflow looks like this :
+
+Pull request —> Git repository —> Openshift GitOps —> AWS resource Operator —> Ansible automation platform. 
+
+### How this could be useful to us :
+
+We could use the workflow to automate running playbooks based on events or before upgrading clusters. (Automatically launching the health check playbook before an upgrade or maintenance)
+
+Usefulness mitigated by TeamCity but still cool to know this exists.
